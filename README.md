@@ -1,5 +1,5 @@
 # introduction-to-algorithms
-# psudo-code:
+# pseudo-code:
 1. Let min = 0 and max = n - 1.
 2. If max < min, then stop: target is not present in array. Return -1.
 3. Compute guess as the average of max and min, rounded down (so that it is an integer)
