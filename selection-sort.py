@@ -16,5 +16,7 @@ def indexOfMinimum(array, startIndex):
 
 def selectionSort(array):
     for i in range(len(array)):
+        # find the index of the minimum value in subarray
         minIndex = indexOfMinimum(array, i)
+        # swap location of minimum value in array to the current location
         swap(array, minIndex, i)
